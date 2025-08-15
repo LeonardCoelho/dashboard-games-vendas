@@ -1,90 +1,70 @@
 # 🎮 Dashboard de Vendas de Video Games - Power BI
 
-Projeto final da disciplina **Mineração de Dados e Business Intelligence**, com foco na construção de um dashboard interativo no Power BI a partir de uma base pública de vendas de jogos.
+Projeto acadêmico de Mineração de Dados e Business Intelligence, com foco na criação de um **dashboard interativo** no Power BI a partir de uma base pública de vendas de jogos.
 
 ---
 
-## 👨‍💻 Autor
+## 🎯 Objetivo
 
-- **Leonardo Coelho**
+Transformar uma base de dados de vendas de vídeo games em **insights estratégicos**, aplicando análise, visualização e storytelling.
 
----
+Perguntas respondidas:
 
-## 📊 Resumo do Projeto
-
-Este projeto tem como objetivo transformar uma base de dados de vendas de vídeo games em **insights de negócio**, utilizando ferramentas de análise e visualização no **Power BI**. Foram aplicadas técnicas de:
-
-- Limpeza de dados
-- Criação de colunas e medidas com DAX
-- Segmentações visuais por filtros e categorias
-- Design informativo e responsivo
-
----
-
-## 📌 Base de Dados
-
-- Fonte: Kaggle  
-  [🎯 Video Game Sales Dataset – Kaggle](https://www.kaggle.com/datasets/anandshaw2001/video-game-sales)
-- Formato original: `.csv`
-- Dados sobre: nome do jogo, plataforma, ano de lançamento, gênero, publisher, e vendas por região
+- Quais são os 10 jogos mais vendidos globalmente?
+- Qual gênero tem maior volume de vendas globais?
+- Quais plataformas lideram em vendas?
+- Volume de vendas por região (América do Norte, Europa, Japão, Outros)
+- Total de jogos por categoria de vendas (Alta, Média, Baixa)
+- Evolução das vendas ao longo dos anos
+- Participação da Nintendo nas vendas totais
+- Quais gêneros concentram maiores volumes de vendas
 
 ---
 
-## ❓ Perguntas de Negócio Respondidas
+## 🧰 Tecnologias Utilizadas
 
-1. Quais são os 10 jogos mais vendidos globalmente?  
-2. Qual o gênero com maior volume de vendas globais?  
-3. Quais são as plataformas com maior volume total de vendas?  
-4. Qual o volume de vendas por região (América do Norte, Europa, Japão, Outros)?  
-5. Qual o total de jogos em cada categoria de vendas (Alta, Média, Baixa)?  
-6. Qual a média de vendas globais por jogo?  
-7. Como as vendas se comportaram ao longo dos anos?  
-8. Qual é a participação da Nintendo nas vendas totais?  
-9. Quais gêneros concentram os maiores volumes de vendas?  
-10. Quantos jogos compõem a base de dados analisada?
+- Power BI Desktop
+- DAX (cálculos e medidas)
+- Excel / Power Query (limpeza e transformação de dados)
+- Kaggle (fonte de dados)
 
 ---
 
-## 🖼️ Visual do Dashboard
+## 📂 Estrutura do Projeto
 
-> 📌 Imagem ilustrativa — versão completa disponível para download.
+```text
+📂 dashboard-games-vendas
+  ┣ 📂 data
+  ┃   └── Dados.csv          # Base de dados original
+  ┣ 📂 images
+  ┃   └── Print.jpg          # Preview do dashboard
+  ┣ 📂 src
+  ┃   └── Dashboard.pbix     # Arquivo editável do Power BI
+  ┣ README.md                # Documentação
+  ┗ 📜 .gitignore / outros    # Arquivos de configuração (opcional)
+```
+
+---
+
+## 📸 Preview do Dashboard
 
 ![Preview do Dashboard](images/Print.jpg)
 
 ---
 
-## 📁 Arquivos Disponíveis
+## ✅ Como Executar
 
-| Tipo | Nome | Descrição |
-|------|------|-----------|
-| 📊 | `Dashboard.pbix` | Dashboard editável no Power BI Desktop |
-| 🗂️ | `Dados.csv` | Base de dados original utilizada no projeto |
-| 📷 | `Print.png` | Documentação com objetivo e contexto do projeto |
+1. Baixe o arquivo `Dashboard.pbix` do repositório.
+2. Abra com **Power BI Desktop**.
+3. Interaja com filtros e segmentações para explorar os dados e insights.
 
 ---
 
-## 🛠️ Ferramentas Utilizadas
+## 👨‍💻 Autor
 
-- Power BI Desktop (modelagem e visualização)
-- DAX (cálculos e medidas)
-- Excel / Power Query (limpeza dos dados)
-- Kaggle (fonte dos dados)
+**Leonardo Coelho**\
+📊 Pós em Data Science & Machine Learning | 🚛 Analista de Transportes\
+📍 Campinas - SP\
+🔗 [GitHub](https://github.com/LeonardCoelho) | [LinkedIn](https://linkedin.com/in/leonardcoelho)
 
----
-
-## ✅ Como Executar o Projeto
-
-1. Baixe o arquivo `.pbix`
-2. Abra com o Power BI Desktop
-3. Interaja com os filtros e visualizações para explorar os dados
-
----
-
-## 💬 Contato
-
-📧 lnrds.coelho@gmail.com
-🔗 [LinkedIn](https://www.linkedin.com/in/leoscoelho/)
-
----
-
-> Projeto acadêmico com aplicação prática para análise de dados reais com foco em **business intelligence e storytelling visual**.
+Feito como projeto acadêmico com aplicação prática em **Business Intelligence e análise de dados reais**. 🚀
