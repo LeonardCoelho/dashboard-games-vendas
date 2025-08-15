@@ -49,7 +49,7 @@ Este projeto tem como objetivo transformar uma base de dados de vendas de vídeo
 
 > 📌 Imagem ilustrativa — versão completa disponível para download.
 
-![Preview do Dashboard](./Print.jpg)
+![Preview do Dashboard](images/Print.jpg)
 
 ---
 
